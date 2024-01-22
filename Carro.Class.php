@@ -1,4 +1,5 @@
 <?php
+
 class Carro {
     //atibutos dos Carros
     public $ano,
@@ -6,11 +7,8 @@ class Carro {
     $cor,
     $fabricante,
     $motor,
-    $combustível = "Gasolina",
-    $portas,
-    $velocidade,
-    $quilometragem;
-
+    $placa;
+    
     //Métodos
     public function andar(){
         echo "Andando a {$this->velocidade}";
